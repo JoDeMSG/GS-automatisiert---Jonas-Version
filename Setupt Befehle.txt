@@ -1,0 +1,15 @@
+Bei neuem Ordner die virtuelle Umgebung einmalig neu anlegen
+py -m venv .venv
+.venv\Scripts\activate
+
+Danach fehlen noch die Pakete 
+pip install -r requirements.txt
+
+python -m gspp.cli doctor
+Prüfung aller requir.
+
+pip install pip-system-certs
+Python an windows certs binden
+
+Build ohne Makros
+python -m gspp.cli build --ziel-schema 2023 --design bsi -o out\GSpp_Vorlage.xlsx --snapshot-dir snapshots --cache .cache
