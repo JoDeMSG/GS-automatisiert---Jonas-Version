@@ -205,24 +205,6 @@ informativ.
 
 ---
 
-## Offene Punkte für die Austauschplattform
-
-1. **Praktiken ↔ Bausteine.** 20 prozessorientierte Praktiken lassen sich nicht
-   sauber auf 111 zielobjektorientierte Bausteine abbilden. Die Kandidaten für
-   eine Brücke sind `target_object_categories` (60 verschiedene Werte) und die
-   `tags`. Ob wir eine eigene Mapping-Tabelle pflegen oder auf ein BSI-Mapping
-   warten, ist eine Produktentscheidung, keine technische.
-2. **Drei → zwei Schutzbedarfsstufen.** Bestehende Kundenbewertungen nach
-   B/S/H brauchen eine dokumentierte Überleitungsregel.
-3. **Verschachtelte Anforderungen** — gelöst, siehe eigenen Abschnitt unten.
-   Zur Diskussion steht nur noch, ob die Heuristik `effort_level == 0` durch
-   eine gepflegte Ausnahmeliste ergänzt werden soll.
-4. **Zielformat.** Excel ist die Kundensicht. Ob wir mittelfristig OSCAL-nativ
-   arbeiten (Assessment-Plan / Assessment-Results statt Excel-Rückkanal),
-   entscheidet, wie viel wir in die Excel-Schiene investieren.
-
----
-
 ## Ausgabe im 2023-Schema (`--ziel-schema 2023`)
 
 Erzeugt das Layout der BSI-Vorlage **A.3.4** (Version 1.1.1, Edition 2023):
